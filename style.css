@@ -1,0 +1,127 @@
+.githubsvg{
+  height: clamp(16px,32px,40px);
+  width: clamp(16px,32px,40px);
+  color: #ffb700;
+  padding-left: 5px ;
+}
+.content {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(186, 220, 250);
+  height:auto;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem rgb(69, 67, 67));
+
+}
+.content p{
+  background-color: rgb(186, 220, 250);
+  height:auto;
+  border-radius: 10px;
+  padding-left:22px ;
+  padding-right: 22px;
+  padding-top: 40px;
+  padding-bottom: 12px;
+
+
+}
+.content img{
+  max-width: 40vw;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  display:block;
+  margin:auto;
+}
+
+.kurvakep{
+  height: clamp(250px,450px,900px);
+  width: clamp(460,733,1100);
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+}
+.start{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+}
+.start a{
+  color: #fff;
+  
+}
+.start p{
+  font-size: clamp(16px,32px,40px);
+  display: block;
+  margin: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: #ffb700;
+}
+.start .glink{
+  color: #ffb700;
+
+}
+.start .glink :hover{
+  color: red;
+}
+
+.start button{
+  width: clamp(300px,600px 900px);
+  display: block;
+  margin: auto;
+  margin-top: 1%;
+
+}
+:root {
+  --clr-neon: rgb(255, 191, 0);
+  --clr-bg: hsl(323 21% 16%);
+}
+
+    .neons {
+      font-size:20px;
+      height:60px;
+      width : clamp(300px,600px 900px);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      cursor: pointer;
+      font-family: "Balsamiq Sans", cursive;
+      text-decoration: none;
+      color: var(--clr-neon);
+      border: var(--clr-neon) 3px solid;
+      background-color:transparent;
+      border-radius: 0.25em;
+      text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+      box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+      transition:all 0.5s;
+    }
+     
+    .neons:hover{
+        background-color:var(--clr-neon);
+        color:#fff;
+    }
+
+html,
+body {
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(100%, #7db9e8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #1e5799 0%, #7db9e8 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+  /* IE6-9 */
+  min-height: 100%;
+}
+ 
